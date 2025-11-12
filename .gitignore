@@ -1,0 +1,40 @@
+# Environment variables and secrets
+.env
+*.key
+*.pem
+config.json
+secrets/
+
+# API keys and credentials
+*api_key*
+*secret*
+*password*
+*token*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Screenshots with sensitive data
+screenshots/*_internal*
+screenshots/*_private*
+
+# Logs
+*.log
+logs/
