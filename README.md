@@ -68,26 +68,26 @@ This lab demonstrates enterprise endpoint management and security automation usi
 ### Installation
 
 1. **Clone the repository**
-   \```bash
+   ```
    git clone https://github.com/sammiet03/endpoint-security-lab.git
    cd endpoint-security-lab
-   \```
+   ```
 
 2. **Install dependencies**
-   \```bash
+   ```
    pip install -r requirements.txt
-   \```
+   ```
 
 3. **Configure environment variables**
-   \```bash
+   ```
    cp .env.example .env
    - Edit .env and add your JumpCloud API key
-   \```
+   ```
 
 4. **Run device health monitor**
-   \```bash
+   ```
    python scripts/device_health_monitor.py
-   \```
+   ```
 
 ## 📁 Project Structure
 ```
@@ -116,9 +116,9 @@ endpoint-security-lab/
 2. Navigate to your profile → "My API Key"
 3. Generate a new API key
 4. Add to `.env` file:
-   \```bash
+   ```
    JUMPCLOUD_API_KEY=your_api_key_here
-   \```
+   ```
 
 ### Device Enrollment
 
