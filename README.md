@@ -3,7 +3,6 @@
 Automated MDM deployment and device lifecycle management using JumpCloud with Python automation for compliance monitoring and policy enforcement.
 
 [![Python 3.8+](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![JumpCloud](https://img.shields.io/badge/JumpCloud-MDM-green.svg)](https://jumpcloud.com)
 
 ## 🎯 Project Overview
