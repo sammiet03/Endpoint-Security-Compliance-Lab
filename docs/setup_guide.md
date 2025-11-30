@@ -8,29 +8,28 @@
 ## Quick Start
 
 ### 1. Clone Repository
-\```bash
+```
 git clone https://github.com/sammiet03/endpoint-security-lab.git
 cd endpoint-security-lab
-\```
+```
 
 ### 2. Install Dependencies
-\```bash
+```
 pip install -r requirements.txt
-\```
+```
 
 ### 3. Configure Environment
-\```bash
+```
 # Copy example environment file
 cp .env.example .env
 
 # Edit .env and add your JumpCloud API key
 nano .env
-\```
 
 ### 4. Run Health Monitor
 \```bash
 python scripts/device_health_monitor.py
-\```
+```
 
 ## JumpCloud Setup
 
@@ -48,17 +47,17 @@ python scripts/device_health_monitor.py
 ### Get your Connect Key from JumpCloud
 ### Console → Device Management → Windows → "Enroll Device" → Copy the command
 
-\```powershell
+```
 Invoke-Expression (Invoke-RestMethod -Uri 'https://kickstart.jumpcloud.com/Kickstart' -UseBasicParsing)
-\```
+```
 
 ![Windows](../screenshots/installingjumpcloud-windows.png)
 
 
 **Linux:**
-\```bash
+```
 curl --tlsv1.2 --silent --show-error --header 'x-connect-key: YOUR_KEY' https://kickstart.jumpcloud.com/Kickstart | sudo bash
-\```
+```
 
 ## Troubleshooting
 
