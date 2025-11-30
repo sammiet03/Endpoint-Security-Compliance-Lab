@@ -27,7 +27,6 @@ cp .env.example .env
 nano .env
 
 ### 4. Run Health Monitor
-\```bash
 python scripts/device_health_monitor.py
 ```
 
